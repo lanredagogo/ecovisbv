@@ -1059,6 +1059,8 @@ header {
 }
 
 .logo {
+  padding-top: 12px;
+  padding-bottom: 12px;
   margin-left: 1em;
   max-width: 150px;
   min-width: 120px;
@@ -1067,7 +1069,7 @@ header {
 
 .products-ul li {
   padding: 12px;
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
 }
 
 .products-ul li:hover {
@@ -1108,8 +1110,12 @@ header {
     margin-top: 7rem;
   }
 
-  .md\:mt-6 {
-    margin-top: 1.5rem;
+  .md\:ml-\[-6px\] {
+    margin-left: -6px;
+  }
+
+  .md\:ml-\[-60px\] {
+    margin-left: -60px;
   }
 
   .md\:block {
@@ -1226,8 +1232,16 @@ header {
     padding-bottom: 0.5rem;
   }
 
-  .md\:pr-12 {
-    padding-right: 3rem;
+  .md\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .md\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .md\:pr-10 {
+    padding-right: 2.5rem;
   }
 
   .md\:text-6xl {
