@@ -51,20 +51,19 @@
         <ul class="md:flex gap-8 hidden text-[1.2rem] py-2 font-light">
             <li><a href="./index.html">Home</a></li>
             <li>
-                <select name="pets" id="pet-select" class="bg-inherit border-none">
-                  <option value="">Products</option>
-                  <option value="dog">LNG</option>
-                  <option value="cat">LPG</option>
-                  <option value="hamster">JP54</option>
-                  <option value="parrot">ESPO</option>
-                  <option value="spider">UREA</option>
-                  <option value="goldfish">Mazut</option>
-                  <option value="goldfish">Bitumen</option>
-                  <option value="goldfish">Jet Fuel A1</option>
-                  <option value="goldfish">Diesel EN590</option>
-                  <option value="goldfish">Virgin Fuel Oil D6</option>
-                  <option value="goldfish">Automative Gas OIL</option>
-                </select>
+              <details class="bg-inherit border-none cursor-pointer">
+                <summary>Products</summary>
+                <ul class="list-none text-[15px] font-light products-ul absolute z-50 bg-gray-500 cursor-pointer px-4 ">
+                  <li><a href="./lng.html">LNG</a></li>
+                  <li><a href="">LPG</a></li>
+                  <li><a href="">JP54</a></li>
+                  <li><a href="">ESPO</a></li>
+                  <li><a href="">UREA</a></li>
+                  <li><a href="">Mazut</a></li>
+                  <li><a href="">Bitumen</a></li>
+                  <li><a href="">Mazut</a></li>
+                </ul>
+            </details>
             </li>
 
             <li><a href="./contact-us.html">Contact Us</a></li>
@@ -89,7 +88,7 @@
             <details class="bg-inherit border-none">
                 <summary>Products</summary>
                 <ul class="list-none text-[15px] font-light products-ul">
-                    <li>LNG</li>
+                    <li><a href="./lng.html">LNG</a></li>
                     <li>LPG</li>
                     <li>JP54</li>
                     <li>ESPO</li>
@@ -125,7 +124,9 @@
 
                 <p class="mt-4">Our refinery operations leverage cutting-edge technology to efficiently process crude oil into a diverse range of high-quality products, including gasoline, diesel, jet fuel, and petrochemicals. By adhering to stringent international standards for fuel quality and environmental safety, we are committed to delivering reliable and sustainable energy solutions.</p>
                 
-                <button class="bg-lime-800 py-2 px-8 my-4 text-white">Contact Us</button>
+                <a href="./contact-us.html" class="bg-orange-500 text-white px-6 py-3 font-semibold rounded hover:bg-orange-600">
+                  CONTACT US
+                </a>
             </div>
             </div>
             
@@ -140,7 +141,9 @@
                 <p class="md:text-lg">
                   ECOVIS BV OIL AND GAS LIMITED, TOO specializes in providing comprehensive oil and gas solutions. Our services include marine transportation, supply chain management, and the supply of high-quality energy products. We are dedicated to meeting the evolving needs of the global energy market with reliability, efficiency, and sustainability.
                 </p>
-                <button class="bg-lime-800 text-white py-2 px-8 mt-4 hover:bg-lime-700">Contact Now</button>
+                <a href="./contact-us.html" class="bg-orange-500 text-white px-6 py-3 font-semibold rounded hover:bg-orange-600">
+                  CONTACT US
+                </a>
               </div>
           
               
@@ -191,7 +194,9 @@
               <div>
                 <form class="flex flex-col md:flex-row md:place-items-baseline md:gap-4 space-y-4 ">
                   <input type="email" placeholder="Email your email" class="p-3 border-2 border-gray-300 rounded text-black placeholder-gray-400">
-                  <button type="submit" class="bg-orange-500 text-black font-bold py-3 px-10 md:px-14 rounded">SIGN UP</button>
+                  <a href="./contact-us.html" class="bg-orange-500 text-white px-6 py-3 font-semibold rounded hover:bg-orange-600">
+                    CONTACT US
+                  </a>
                </form>
               </div>
             </div>
@@ -204,10 +209,10 @@
           <div class="mb-6 md:mb-0 ">
               <h3 class="text-lg font-bold mb-2">Quick Links</h3>
               <ul class="list-none">
-                  <li class="mb-2"><span class="text-orange-500">✔</span> Home</li>
-                  <li class="mb-2"><span class="text-orange-500">✔</span> About Us</li>
+                  <a href="./index.html"><li class="mb-2"><span class="text-orange-500">✔</span> Home</li></a>
+                  <a href="#"><li class="mb-2"><span class="text-orange-500">✔</span> About Us</li></a>
                   <li class="mb-2"><span class="text-orange-500">✔</span> Services</li>
-                  <li class="mb-2"><span class="text-orange-500">✔</span> Contact Us</li>
+                  <a href="./contact-us.html"><li class="mb-2"><span class="text-orange-500">✔</span> Contact Us</li></a>
               </ul>
           </div>
   
@@ -245,7 +250,7 @@
   
           <!-- Company Logo and Description -->
           <div class="mb-6 md:mb-0  ">
-              <div class="bg-lime-800 w-fit mb-3   p-4"><img src="build/img/NEW-LOGO-removebg-preview 2.png" alt="ECOVIS BV Oil and Gas Limited Logo" class="w-32 h-32 mb-4 "></div>
+              <div class="bg-orange-500 w-fit mb-3   p-4"><img src="build/img/NEW-LOGO-removebg-preview 2.png" alt="ECOVIS BV Oil and Gas Limited Logo" class="w-32 h-32 mb-4 "></div>
               <p class="text-sm ">ECOVIS BV OIL AND GAS LIMITED, is a leading provider of comprehensive oil and gas solutions, specializing in marine transportation and supply chain management.</p>
           </div>
       </div>

@@ -51,20 +51,19 @@
         <ul class="md:flex gap-8 hidden text-[1.2rem] py-2 font-light">
             <a href="./index.html"><li>Home</li></a>
             <li>
-                <select name="pets" id="pet-select" class="bg-inherit border-none">
-                    <option value="">Products</option>
-                    <option value="dog">LNG</option>
-                    <option value="cat">LPG</option>
-                    <option value="hamster">JP54</option>
-                    <option value="parrot">ESPO</option>
-                    <option value="spider">UREA</option>
-                    <option value="goldfish">Mazut</option>
-                    <option value="goldfish">Bitumen</option>
-                    <option value="goldfish">Jet Fuel A1</option>
-                    <option value="goldfish">Diesel EN590</option>
-                    <option value="goldfish">Virgin Fuel Oil D6</option>
-                    <option value="goldfish">Automative Gas OIL</option>
-                </select>
+                <details class="bg-inherit border-none cursor-pointer">
+                    <summary>Products</summary>
+                    <ul class="list-none text-[15px] font-light products-ul absolute z-50 bg-gray-500 cursor-pointer px-4 ">
+                        <li><a href="">LNG</a></li>
+                        <li><a href="">LPG</a></li>
+                        <li><a href="">JP54</a></li>
+                        <li><a href="">ESPO</a></li>
+                        <li><a href="">UREA</a></li>
+                        <li><a href="">Mazut</a></li>
+                        <li><a href="">Bitumen</a></li>
+                        <li><a href="">Mazut</a></li>
+                    </ul>
+                </details>
             </li>
 
             <li>Contact Us</li>
@@ -172,7 +171,7 @@
                     </div>
 
                     <!-- Submit Button -->
-                    <button type="submit" class="w-full py-3 bg-lime-800 text-white font-semibold rounded-md hover:bg-blue-700 transition-colors">
+                    <button type="submit" class="w-full py-3 bg-orange-500 text-white font-semibold rounded-md hover:bg-blue-700 transition-colors">
                         Send Message
                     </button>
                 </form>
@@ -227,7 +226,7 @@
   
           <!-- Company Logo and Description -->
           <div class="mb-6 md:mb-0  ">
-              <div class="bg-lime-800 w-fit mb-3   p-4"><img src="build/img/NEW-LOGO-removebg-preview 2.png" alt="ECOVIS BV Oil and Gas Limited Logo" class="w-32 h-32 mb-4 "></div>
+              <div class="bg-orange-500 w-fit mb-3   p-4"><img src="build/img/NEW-LOGO-removebg-preview 2.png" alt="ECOVIS BV Oil and Gas Limited Logo" class="w-32 h-32 mb-4 "></div>
               <p class="text-sm ">ECOVIS BV OIL AND GAS LIMITED, is a leading provider of comprehensive oil and gas solutions, specializing in marine transportation and supply chain management.</p>
           </div>
       </div>
