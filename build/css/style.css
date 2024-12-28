@@ -596,6 +596,10 @@ video {
   position: absolute;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -720,6 +724,10 @@ video {
   display: none;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-16 {
   height: 4rem;
 }
@@ -811,6 +819,10 @@ video {
 
 .place-content-center {
   place-content: center;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -963,14 +975,14 @@ video {
   background-color: inherit;
 }
 
-.bg-lime-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(63 98 18 / var(--tw-bg-opacity, 1));
-}
-
 .bg-orange-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 242 242 / var(--tw-bg-opacity, 1));
 }
 
 .bg-slate-100 {
@@ -981,11 +993,6 @@ video {
 .bg-slate-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-bg-opacity, 1));
-}
-
-.bg-slate-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
@@ -1250,11 +1257,11 @@ video {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url();
+  background-color: aliceblue;
 }
 
 header {
-  background-color: #03055B;
+  background-color:  #03055B;
   opacity: 80%;
 }
 
@@ -1291,6 +1298,11 @@ header {
   background-color: rgb(234 88 12 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-orange-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity, 1));
+}
+
 .focus\:outline-none:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -1310,6 +1322,14 @@ header {
 @media (min-width: 768px) {
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .md\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .md\:mb-4 {
@@ -1332,8 +1352,20 @@ header {
     margin-top: 3.5rem;
   }
 
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:mt-28 {
     margin-top: 7rem;
+  }
+
+  .md\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
+  .md\:mt-\[-1\.5rem\] {
+    margin-top: -1.5rem;
   }
 
   .md\:block {
@@ -1366,6 +1398,10 @@ header {
 
   .md\:w-\[35\%\] {
     width: 35%;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 
   .md\:w-\[60\%\] {
@@ -1406,6 +1442,10 @@ header {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .md\:whitespace-nowrap {
+    white-space: nowrap;
+  }
+
   .md\:border-l {
     border-left-width: 1px;
   }
@@ -1426,9 +1466,8 @@ header {
     padding: 3.5rem;
   }
 
-  .md\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+  .md\:p-6 {
+    padding: 1.5rem;
   }
 
   .md\:px-12 {
@@ -1461,6 +1500,11 @@ header {
     padding-bottom: 0.5rem;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
   .md\:pr-10 {
     padding-right: 2.5rem;
   }
@@ -1476,6 +1520,14 @@ header {
 
   .md\:text-\[1\.4rem\] {
     font-size: 1.4rem;
+  }
+
+  .md\:text-\[2\.5rem\] {
+    font-size: 2.5rem;
+  }
+
+  .md\:text-\[22px\] {
+    font-size: 22px;
   }
 
   .md\:text-\[2rem\] {
@@ -1498,6 +1550,10 @@ header {
 
   .md\:font-semibold {
     font-weight: 600;
+  }
+
+  .md\:text-\[2\.rem\] {
+    color: 2.rem;
   }
 }
 
