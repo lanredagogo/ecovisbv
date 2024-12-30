@@ -736,10 +736,6 @@ video {
   height: 4rem;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
 .h-32 {
   height: 8rem;
 }
@@ -752,8 +748,8 @@ video {
   height: 100%;
 }
 
-.w-10 {
-  width: 2.5rem;
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-16 {
@@ -923,6 +919,10 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-l-4 {
+  border-left-width: 4px;
+}
+
 .border-none {
   border-style: none;
 }
@@ -935,6 +935,11 @@ video {
 .border-gray-600 {
   --tw-border-opacity: 1;
   border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .border-white\/70 {
@@ -968,11 +973,6 @@ video {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity, 1));
-}
-
-.bg-green-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
 }
 
 .bg-inherit {
@@ -1059,6 +1059,11 @@ video {
   padding-bottom: 0px;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -1100,6 +1105,10 @@ video {
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .pt-12 {
@@ -1292,11 +1301,6 @@ header {
   background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:bg-lime-700:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(77 124 15 / var(--tw-bg-opacity, 1));
-}
-
 .hover\:bg-orange-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(234 88 12 / var(--tw-bg-opacity, 1));
@@ -1376,8 +1380,16 @@ header {
     display: block;
   }
 
+  .md\:inline {
+    display: inline;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:inline-flex {
+    display: inline-flex;
   }
 
   .md\:grid {
@@ -1424,6 +1436,10 @@ header {
     width: 100%;
   }
 
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1454,25 +1470,12 @@ header {
     white-space: nowrap;
   }
 
-  .md\:border {
-    border-width: 1px;
-  }
-
   .md\:border-l {
     border-left-width: 1px;
   }
 
-  .md\:border-l-4 {
-    border-left-width: 4px;
-  }
-
   .md\:border-white\/60 {
     border-color: rgb(255 255 255 / 0.6);
-  }
-
-  .md\:border-white {
-    --tw-border-opacity: 1;
-    border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
   }
 
   .md\:p-0 {
@@ -1491,8 +1494,8 @@ header {
     padding: 1.5rem;
   }
 
-  .md\:p-5 {
-    padding: 1.25rem;
+  .md\:p-7 {
+    padding: 1.75rem;
   }
 
   .md\:px-12 {
@@ -1530,26 +1533,8 @@ header {
     padding-bottom: 5rem;
   }
 
-  .md\:py-5 {
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-  }
-
-  .md\:py-1 {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-  }
-
   .md\:pr-10 {
     padding-right: 2.5rem;
-  }
-
-  .md\:pl-4 {
-    padding-left: 1rem;
-  }
-
-  .md\:pl-5 {
-    padding-left: 1.25rem;
   }
 
   .md\:text-6xl {
