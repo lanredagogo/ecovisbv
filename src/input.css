@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: aliceblue;
+    height: 100vh;
 }
 
 header {
@@ -32,6 +35,27 @@ header {
 .products-ul li:hover {
     color: grey;
 }
+
+.news-letter {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+img {
+    max-width: 100%;
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 
